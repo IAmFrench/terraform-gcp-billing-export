@@ -7,7 +7,9 @@ This module will create BigQuery datasets for both standard and detailed billing
 You will need to complete the setup by manually linking in the Google Cloud console dataset ids to billing exports. (As there is not API / Terraform resource yet).
 
 Learn more: https://cloud.google.com/billing/docs/how-to/export-data-bigquery-setup
+
 Feature Request: https://issuetracker.google.com/issues/70525274
+
 GitHub issue: https://github.com/hashicorp/terraform-provider-google/issues/4848
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
