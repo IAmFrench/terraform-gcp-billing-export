@@ -7,6 +7,7 @@ variable "billing_dataset_location" {
 variable "billing_project_id" {
   type        = string
   description = "Project ID used for hosting BigQuery billing datasets."
+  nullable    = false
 }
 
 /* -------------------------------- Optionals ------------------------------- */
